@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+a:visited {
+  color: #0000ee;
+}
+
+.imgLink {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.connectinfo {
+  margin-bottom: 20px;
+}
+
+.load-spinner {
+  height: 200px;
+  padding-top: 100px;
+}
+
+.load-spinner .spinner {
+  margin: auto 30%;
+}
+
+.line-break {
+  white-space: pre-wrap;
+}
+
+.date-range {
+  margin-top: 10px;
+  padding-top: 5px;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.cardheader-date {
+  text-align: left;
+}
+
+.options {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+}
+
+.dx-datagrid-column-chooser .dx-overlay-content.dx-popup-normal.dx-popup-draggable.dx-resizable {
+  position: fixed;
+  transform: none !important;
+  height: 100vh  !important;
+  left: initial !important;
+  right: 0 !important;
+  top: 0 !important;
+}
+
+.dx-datagrid-column-chooser .dx-overlay-content.dx-popup-normal.dx-popup-draggable.dx-resizable .dx-popup-content {
+  height: 100vh  !important;
+}
+
+.blue-gradient {
+  background: linear-gradient(40deg,#303f9f,#45cafc)!important;
+}
